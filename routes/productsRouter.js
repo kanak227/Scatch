@@ -23,7 +23,7 @@ router.post('/create' , upload.single('image') ,function(req,res){
         textcolor
     })
     req.flash('success' , "Product saved successfully");
-    res.redirect('/owners/admin');
+    res.redirect('/shop');
 })
 
 

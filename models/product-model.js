@@ -8,8 +8,14 @@ const productSchema = mongoose.Schema({
         type: Number,
         default: 0,
     },
-    bgcolor: String,
-    panelcolor: String,
+    bgcolor: {
+        type:String,
+        default: "#ff3381f3"
+    },
+    panelcolor: {
+        type: String,
+        default: "#ff3381f3"
+    },
     textcolor: String
 
 })

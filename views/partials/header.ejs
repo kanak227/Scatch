@@ -10,6 +10,18 @@
 </head>
 
 <body class="font-['helvetica_now_display']">
-    <nav class="w-full fixed top-0 left-0 px-5 py-3">
-        <h3 class="text-xl">Scatch</h3>
+   
+    <nav class="w-full flex justify-between px-5 py-3">
+        <h3 class="text-xl ">Scatch</h3>
+         <% var loggedIn = typeof isLoggedIn !== 'undefined' ? isLoggedIn : true; %>
+    <% if(loggedIn){  %>
+        <div class="flex gap-5">
+            <a href="">Shop</a>
+            <a href="">Cart</a>
+            <a href="">My account</a>
+            <a href="">Login</a>
+            <a href="/users/logout" class="text-red-600">LogOut</a>
+        </div>
+           <% } %>
     </nav>
+
