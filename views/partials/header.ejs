@@ -16,10 +16,10 @@
          <% var loggedIn = typeof isLoggedIn !== 'undefined' ? isLoggedIn : true; %>
     <% if(loggedIn){  %>
         <div class="flex gap-5">
-            <a href="">Shop</a>
-            <a href="">Cart</a>
+            <a href="/shop">Shop</a>
+            <a href="/cart">Cart</a>
             <a href="">My account</a>
-            <a href="">Login</a>
+            <a href="/">Login</a>
             <a href="/users/logout" class="text-red-600">LogOut</a>
         </div>
            <% } %>
