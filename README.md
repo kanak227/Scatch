@@ -79,16 +79,11 @@ Scatch/
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots of your shop, cart, and admin pages here!
-
----
 
 ## 🙏 Credits
 
 - Inspired by modern e-commerce UIs.
-- Built with 💙 by [Your Name].
+- Built with 💙 by Kanak.
 
 ---
 
